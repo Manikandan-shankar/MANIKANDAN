@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>spam</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
+</head>
+<body>
+
+	<header>
+		
+		<h2 class="a1">Spam Detection</h2>
+		
+	</div>
+	</header>
+
+	<div class="ml-container">
+
+		<form action="/predict" method="POST">
+		<h2>Enter Your mail Here</h2>
+		<input class="box" type="text" id="message" name="message"/>
+		
+		<br/>
+
+		<a href="""><button class="b1" value="predict" type="button">predict</button></a>
+		
+	</form>
+		
+	</div>
+
+	<style>.a1{
+		text-align: center;
+		padding-top: 100px;
+		font-size: 20px;
+	}
+	
+	.ml-container{
+		text-align: center;
+		
+		
+	   
+	}
+	
+	.ml-container p{
+		font-size: 30px;
+	}
+	
+	.btn-info{
+		padding: 10px;
+		
+	}
+	body {
+			
+		background-image: url("../image/AdobeStock_571000059_Preview.jpeg");
+		background-repeat: no-repeat;
+		overflow: hidden;
+		background-size: cover;
+	}
+	.box{
+		padding: 12px 20px;
+	  margin: 8px 0;
+	  box-sizing: border-box;
+	  width: 40%;
+	  border-radius: 1px;
+	  height: 100px;
+	  
+	  background: transparent;
+	}
+	.b1{
+		padding: 15px 0;
+		background: transparent;
+		border-radius: 15px;
+		color: #fff;
+		text-transform: uppercase;
+		border: 2px solid #fff;
+		transition: all .5s;
+		margin-bottom: 10px;
+		width: 150px;
+		margin: 20px ;
+	}
+	
+	button:hover {
+		background: #fff;
+		color: #000;
+	}</style>
+
+	
+	
+
+</body>
+</html>
